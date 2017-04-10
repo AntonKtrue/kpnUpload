@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><graph>
+<points>
+<point oid="id3" id="1">
+<name>R1</name>
+<description/>
+</point>
+<point oid="id4" id="2">
+<name>Z1</name>
+<description/>
+</point>
+<point oid="id5" id="3">
+<name>MNA1</name>
+<description/>
+</point>
+<point oid="id1" id="4">
+<name>R2</name>
+<description/>
+</point>
+<point oid="id2" id="5">
+<name>U</name>
+<description/>
+</point>
+<point oid="id6" id="6">
+<name>MNA2</name>
+<description/>
+</point>
+<point oid="id7" id="7">
+<name>U</name>
+<description/>
+</point>
+</points>
+<rays>
+<ray>
+<start>id1</start>
+<end>id2</end>
+</ray>
+<ray>
+<start>id2</start>
+<end>id1</end>
+</ray>
+<ray>
+<start>id3</start>
+<end>id2</end>
+</ray>
+<ray>
+<start>id2</start>
+<end>id3</end>
+</ray>
+<ray>
+<start>id2</start>
+<end>id4</end>
+</ray>
+<ray>
+<start>id4</start>
+<end>id2</end>
+</ray>
+<ray>
+<start>id4</start>
+<end>id5</end>
+</ray>
+<ray>
+<start>id5</start>
+<end>id6</end>
+</ray>
+<ray>
+<start>id6</start>
+<end>id7</end>
+</ray>
+<ray>
+<start>id7</start>
+<end>id1</end>
+</ray>
+<ray>
+<start>id7</start>
+<end>id3</end>
+</ray>
+</rays>
+</graph>

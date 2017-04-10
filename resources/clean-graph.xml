@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><graph>
+<points>
+<point oid="id1" id="1">
+<name>R2</name>
+<description/>
+</point>
+<point oid="id3" id="2">
+<name>R1</name>
+<description/>
+</point>
+<point oid="id4" id="3">
+<name>Z1</name>
+<description/>
+</point>
+<point oid="id5" id="4">
+<name>MNA1</name>
+<description/>
+</point>
+<point oid="id6" id="5">
+<name>MNA2</name>
+<description/>
+</point>
+</points>
+<rays>
+<ray>
+<start>id1</start>
+<end>id3</end>
+</ray>
+<ray>
+<start>id1</start>
+<end>id4</end>
+</ray>
+<ray>
+<start>id3</start>
+<end>id1</end>
+</ray>
+<ray>
+<start>id3</start>
+<end>id4</end>
+</ray>
+<ray>
+<start>id4</start>
+<end>id1</end>
+</ray>
+<ray>
+<start>id4</start>
+<end>id3</end>
+</ray>
+<ray>
+<start>id6</start>
+<end>id1</end>
+</ray>
+<ray>
+<start>id6</start>
+<end>id3</end>
+</ray>
+</rays>
+</graph>

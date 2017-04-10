@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE graph SYSTEM "graph.dtd">
+<graph>
+    <connector>
+        <start>asdf</start>
+        <end>asdf</end>
+        <desc>&company;;</desc>
+    </connector>
+</graph>

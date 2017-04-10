@@ -1,0 +1,7 @@
+<!ENTITY company "Transneft">
+<!ELEMENT graph (connector+)>
+<!ELEMENT connector (start, end, desc?)>
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT end (#PCDATA)>
+<!ELEMENT desc (#PCDATA)>
+<!ATTLIST start cur CDATA #IMPLIED>
